@@ -72,3 +72,62 @@ A summary of the access policies in place can be found in the table below.
 | Web-2                | No                  | 10.0.0.7 via SSH port 22                |
 | ELK-VM               | No                  | Workstation MY Public IP using TCP 5601 |
 
+The playbook implements the following tasks:
+In 3-5 bullets, explain the steps of the ELK installation play. E.g., install Docker; download image; etc.
+- Specify a different group of machines:
+      ```yaml
+        - name: Config elk VM with Docker
+          hosts: elk
+          become: true
+          tasks:
+      ```
+  - Install Docker.io
+      ```yaml
+        - name: Install docker.io
+          apt:
+            update_cache: yes
+            force_apt_get: yes
+            name: docker.io
+            state: present
+      ``` 
+  - Install Python-pip
+      ```yaml
+        - name: Install python3-pip
+          apt:
+            force_apt_get: yes
+            name: python3-pip
+            state: present
+
+          # Use pip module (It will default to pip3)
+        - name: Install Docker module
+          pip:
+            name: docker
+            state: present
+            `docker`, which is the Docker Python pip module.
+      ``` 
+  - Increase Virtual Memory
+      ```yaml
+       - name: Use more memory
+         sysctl:
+           name: vm.max_map_count
+           value: '262144'
+           state: present
+           reload: yes
+      ```
+  - Download and Launch ELK Docker Container (image sebp/elk)
+      ```yaml
+       - name: Download and launch a docker elk container
+         docker_container:
+           name: elk
+           image: sebp/elk:761
+           state: started
+           restart_policy: always
+      ```
+  - Published ports 5044, 5601 and 9200 were made available
+      ```yaml
+           published_ports:
+             -  5601:5601
+             -  9200:9200
+             -  5044:5044   
+      ```
+
