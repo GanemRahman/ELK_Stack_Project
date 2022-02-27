@@ -9,7 +9,7 @@ These files have been tested and used to generate a live ELK deployment on Azure
 * [My First Playbook](https://github.com/GanemRahman/ELK_Stack_Project/blob/main/ansible/Docker/pentest.yml "My First Playbook")
 * [Hosts](https://github.com/GanemRahman/ELK_Stack_Project/blob/main/ansible/hosts.yml "Hosts File")
 * [Ansible Configuration](https://github.com/GanemRahman/ELK_Stack_Project/blob/main/ansible/ansible.cfg "Ansible Configuration File")
-* [Ansible ELK Installation and VM Configuration](https://github.com/GanemRahman/ELK_Stack_Project/blob/main/install-elk.yml "ELK Installation and VM Configuration file")
+* [Ansible ELK Installation and VM Configuration](https://github.com/GanemRahman/ELK_Stack_Project/blob/main/ansible/ELK_Stack/install-elk.yml "ELK Installation and VM Configuration file")
 * [Filebeat Config](https://github.com/GanemRahman/ELK_Stack_Project/blob/main/filebeat-config.yml "Filebeat Configuration File")
 * [Filebeat Playbook](https://github.com/GanemRahman/ELK_Stack_Project/blob/main/filebeat-playbook.yml "Filebeat Playbook")
 * [Metricbeat Config](https://github.com/GanemRahman/ELK_Stack_Project/blob/main/metricbeat-config.yml "Metricbeat Configuration File")
