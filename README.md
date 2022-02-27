@@ -130,7 +130,8 @@ In 3-5 bullets, explain the steps of the ELK installation play. E.g., install Do
              -  9200:9200
              -  5044:5044   
       ```
-The following screenshots displays the result of running `docker ps` and `docker ps -a` after successfully configuring the ELK instance.
+- The following screenshots displays the result of running `docker ps` and `docker ps -a` after successfully configuring the ELK instance.  
+
 ELKserver
 ---------
 ![DockerPS](https://github.com/GanemRahman/ELK_Stack_Project/blob/main/Diagrams_and_Images/Docker/ELK-VM_sudo_docker_ps.png "ELKserver")
