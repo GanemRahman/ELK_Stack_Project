@@ -152,6 +152,12 @@ Web-2
 This ELK server is configured to monitor the following machines:
 - List the IP addresses of the machines you are monitoring  
    - Web-1: 10.0.0.8  
-   - Web-2: 10.0.0.9  
+   - Web-2: 10.0.0.9
+
+We have installed the following Beats on these machines:
+- Filebeat  
+  - [Filebeat Module Status](https://github.com/GanemRahman/ELK_Stack_Project/blob/main/Diagrams_and_Images/ELK_Configurations/Filbeat/Filebeat_data_success.png "Filebeat Data Successful")
+- Metric  
+  - [Metricbeat Module Status](https://github.com/GanemRahman/ELK_Stack_Project/blob/main/Diagrams_and_Images/ELK_Configurations/Filbeat/Filebeat_data_success.png "Metricbeat Data Successful")  
 
 
