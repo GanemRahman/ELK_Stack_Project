@@ -166,3 +166,9 @@ These Beats allow us to collect the following information from each machine:
 
 - Metericbeat monitors VM stats,  CPU core stats, filesystem stats, memory stats and network stats.
     - [Metricbeat Module Kibana - Metricbeat Docker Overview ECS Dashboard](https://github.com/GanemRahman/ELK_Stack_Project/blob/main/Diagrams_and_Images/ELK_Configurations/Metricbeat/Metricbeat_Dashboard.png "Kibana Dashboard with Metricbeat")
+
+## Using the Playbook  
+In order to use the playbook, you will need to have an Ansible control node already configured. Assuming you have such a control node provisioned:
+
+- Verify the Public IP address to see if it has changed. [What Is My IP?](https://www.whatismyip.com/)
+- If changed then update the Security Rules that uses the My Public IPv4
