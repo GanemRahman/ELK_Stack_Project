@@ -177,4 +177,6 @@ SSH into the control node and follow the steps below:
 
 - Copy the **_yml_** file to the  **_ansible folder._**
 - Update the **_config_** file to include **_remote users and ports._**
-- Run the playbook, and navigate to **_Kibana [(Your Static Public IP Address on your ELK-VM):5601 (in my case it is 52.190.250.118:5601)]_** to check that the installation worked.
+- Run the playbook, and navigate to **_Kibana [(Your Static Public IP Address on your ELK-VM):5601 (in my case it is 52.190.250.118:5601)]_** to check that the installation worked.  
+
+  -  [Kibana Welcome Page](https://github.com/GanemRahman/ELK_Stack_Project/blob/main/Diagrams_and_Images/ELK_Configurations/Welcome_to_Kibana.png "Welcome to Kibana")
