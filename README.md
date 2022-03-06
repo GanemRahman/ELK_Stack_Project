@@ -189,10 +189,10 @@ These Beats allow us to collect the following information from each machine:
     - [Metricbeat Module Kibana Dashboard](https://github.com/GanemRahman/ELK_Stack_Project/blob/main/Diagrams_and_Images/ELK_Configurations/Metricbeat/Metricbeat_Dashboard.png "Kibana Dashboard with Metricbeat")
 
 _: Answer the following questions:_
-- _Which file is the playbook?_  
-   -For Ansible create **_[My First Playbook](https://github.com/GanemRahman/ELK_Stack_Project/blob/main/ansible/Docker/pentest.yml "My First Playbook")_**
-   -For Filebeat create **_[Filebeat Playbook](https://github.com/GanemRahman/ELK_Stack_Project/blob/main/ansible/Filebeat/filebeat-playbook.yml "Filebeat Playbook")_**
-   -For Metricbeat create **_[Metricbeat Playbook](https://github.com/GanemRahman/ELK_Stack_Project/blob/main/ansible/Metricbeat/metricbeat-playbook.yml "Metricbeat")_**
+- _Which file is the playbook?_    
+   -For Ansible create **_[My First Playbook](https://github.com/GanemRahman/ELK_Stack_Project/blob/main/ansible/Docker/pentest.yml "My First Playbook")_**  
+   -For Filebeat create **_[Filebeat Playbook](https://github.com/GanemRahman/ELK_Stack_Project/blob/main/ansible/Filebeat/filebeat-playbook.yml "Filebeat Playbook")_**  
+   -For Metricbeat create **_[Metricbeat Playbook](https://github.com/GanemRahman/ELK_Stack_Project/blob/main/ansible/Metricbeat/metricbeat-playbook.yml "Metricbeat")_**  
 _ - _Where do you copy it?_  
         -**_/etc/ansible/_**  
 - _Which file do you update to make Ansible run the playbook on a specific machine?_  
