@@ -72,6 +72,13 @@ A summary of the access policies in place can be found in the table below.
 | Web-2                | No                  | 10.0.0.7 via SSH port 22                |
 | ELK-VM               | No                  | Workstation MY Public IP using TCP 5601 |
 
+### Elk Configuration
+Ansible was used to automate configuration of the ELK machine. No configuration was performed manually.
+What is the main advantage of automating configuration with Ansible?  
+  - **_Ansible lets you simply and swiftly utilize multi-tier applications using a YAML playbook._**
+  - **_There's no need to write custom code to automate systems._**
+  - **_Ansible figures out how to get systems to the correct state the user or organization needs them to be in._**
+
 The playbook implements the following tasks:
 In 3-5 bullets, explain the steps of the ELK installation play. E.g., install Docker; download image; etc.
 - Specify a different group of machines:
