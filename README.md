@@ -200,5 +200,5 @@ _ - _Where do you copy it?_
 - _How do I specify which machine to install the ELK server on versus which to install Filebeat on?_
    - **_Designate two separate groups in the etc/ansible/hosts file. One of the groups will be webservers which has the IPs of the 2 VMs that Filebeat will be installed onto._** 
 - _Which URL do you navigate to in order to check that the ELK server is running?
-   - **_http://52.190.250.118:5601//app/kibana_**
+   - **_http://52.190.250.118:5601/app/kibana#/home_**
 
