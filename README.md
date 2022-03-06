@@ -148,6 +148,20 @@ Web-2
 -----
 ![DockerPS](https://github.com/GanemRahman/ELK_Stack_Project/blob/main/Diagrams_and_Images/Docker/Web-2_sudo_docker_ps_-a.png "Web-2")  
 
+## Using the Playbook  
+In order to use the playbook, you will need to have an Ansible control node already configured. Assuming you have such a control node provisioned:
+
+- Verify the Public IP address to see if it has changed. [What Is My IP?](https://www.whatismyip.com/)
+- If changed then update the Security Rules that uses the Public IPv4 address
+
+SSH into the control node and follow the steps below:
+
+- Copy the **_yml_** file to the  **_ansible folder._**
+- Update the **_config_** file to include **_remote users and ports._**
+- Run the playbook, and navigate to **_Kibana [(Your Static Public IP Address on your ELK-VM):5601 (in my case it is 52.190.250.118:5601)]_** to check that the installation worked.  
+
+  -  [Kibana Welcome Page](https://github.com/GanemRahman/ELK_Stack_Project/blob/main/Diagrams_and_Images/ELK_Configurations/Welcome_to_Kibana.png "Welcome to Kibana")
+
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:
 - List the IP addresses of the machines you are monitoring  
@@ -167,16 +181,4 @@ These Beats allow us to collect the following information from each machine:
 - Metericbeat monitors VM stats,  CPU core stats, filesystem stats, memory stats and network stats.
     - [Metricbeat Module Kibana - Metricbeat Docker Overview ECS Dashboard](https://github.com/GanemRahman/ELK_Stack_Project/blob/main/Diagrams_and_Images/ELK_Configurations/Metricbeat/Metricbeat_Dashboard.png "Kibana Dashboard with Metricbeat")
 
-## Using the Playbook  
-In order to use the playbook, you will need to have an Ansible control node already configured. Assuming you have such a control node provisioned:
 
-- Verify the Public IP address to see if it has changed. [What Is My IP?](https://www.whatismyip.com/)
-- If changed then update the Security Rules that uses the Public IPv4 address
-
-SSH into the control node and follow the steps below:
-
-- Copy the **_yml_** file to the  **_ansible folder._**
-- Update the **_config_** file to include **_remote users and ports._**
-- Run the playbook, and navigate to **_Kibana [(Your Static Public IP Address on your ELK-VM):5601 (in my case it is 52.190.250.118:5601)]_** to check that the installation worked.  
-
-  -  [Kibana Welcome Page](https://github.com/GanemRahman/ELK_Stack_Project/blob/main/Diagrams_and_Images/ELK_Configurations/Welcome_to_Kibana.png "Welcome to Kibana")
