@@ -67,7 +67,7 @@ Which machine did you allow to access your ELK VM? What was its IP address?
 A summary of the access policies in place can be found in the table below.
 | Name                 | Publicly Accessible | Allowed IP Addresses                    |
 |----------------------|---------------------|-----------------------------------------|
-| Jump-Box-Provisioner | Yes                 | 74.65.245.48 (Workstation IP on SSSH 22)|
+| Jump-Box-Provisioner | Yes                 | 74.65.245.48 (Workstation IP on SSH 22)|
 | Web-1                | No                  | 10.0.0.7 via SSH port 22                |
 | Web-2                | No                  | 10.0.0.7 via SSH port 22                |
 | ELK-VM               | No                  | Workstation MY Public IP using TCP 5601 |
