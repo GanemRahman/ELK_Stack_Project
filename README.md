@@ -186,6 +186,6 @@ These Beats allow us to collect the following information from each machine:
   - [Filebeat Module Kibana Dashboard ](https://github.com/GanemRahman/ELK_Stack_Project/blob/main/Diagrams_and_Images/ELK_Configurations/Filbeat/Filebeat_system_dashboard.png "Filebeat Dashboard")
 
 - Metricbeat monitors VM stats,  CPU core stats, filesystem stats, memory stats and network stats.
-    - [Metricbeat Module Kibana - Metricbeat Docker Overview ECS Dashboard](https://github.com/GanemRahman/ELK_Stack_Project/blob/main/Diagrams_and_Images/ELK_Configurations/Metricbeat/Metricbeat_Dashboard.png "Kibana Dashboard with Metricbeat")
+    - [Metricbeat Module Kibana Dashboard](https://github.com/GanemRahman/ELK_Stack_Project/blob/main/Diagrams_and_Images/ELK_Configurations/Metricbeat/Metricbeat_Dashboard.png "Kibana Dashboard with Metricbeat")
 
 
